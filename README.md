@@ -1,6 +1,6 @@
 ```
 ローカルで動かす場合
-python3 discordbot.py
+$ python3 discordbot.py
 ```
 
 Bot自体の参考(botアカウントの作成含む)
