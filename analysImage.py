@@ -110,6 +110,7 @@ def calculate_results(data, total_reference):
 
 
 def main(img):
+  # TODO: 固定値で画像の読み取りをしているので、画面サイズが変わると動作しない
   status_bar_img= img.crop((453, 408, 720, 409))
   score_img= img.crop((266, 395, 450, 427))
 
